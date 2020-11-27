@@ -1,17 +1,22 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(MaterialApp(
-    home: Scaffold(
-      appBar: AppBar(
-        backgroundColor: Colors.white10,
-        title: Text('I AM POOR'),
-      ),
-      body: Center(
-        child: Image(
-          image: AssetImage('images/diamond.png'),
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Scaffold(
+        backgroundColor: Colors.blueGrey,
+        appBar: AppBar(
+          title: Text('MyApp'),
         ),
+        body: Container(),
       ),
-    ),
-  ));
+    );
+    // TODO: implement build
+    throw UnimplementedError();
+  }
 }
