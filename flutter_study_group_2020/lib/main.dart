@@ -9,8 +9,7 @@ void main() {
       ),
       body: Center(
         child: Image(
-          image: NetworkImage(
-              'https://memeprod.sgp1.digitaloceanspaces.com/user-wtf/1583643661482.jpg'),
+          image: AssetImage('images/diamond.png'),
         ),
       ),
     ),
